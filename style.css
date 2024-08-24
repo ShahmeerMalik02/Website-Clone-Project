@@ -1,0 +1,805 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------Font Family---------------- */
+@font-face {
+    font-family: "my-font";
+    src: url(./Assets/font/SourceSansPro-Bold.otf);
+}
+
+
+@font-face {
+    font-family: "your-font";
+    src: url(./Assets/font/SourceSansPro-ExtraLight.otf);
+}
+
+/* ----------------Nav Section End---------------------- */
+
+nav {
+    background-color: white;
+
+}
+
+.nav-container {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-logo {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.nav-items p {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.nav-items span {
+    color: gray;
+    font-weight: lighter;
+}
+
+.nav-items button {
+    width: 170px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid white;
+    color: gray;
+}
+
+.nav-items i {
+    color: #F17228;
+    font-size: 18px;
+}
+
+/* ---------------------Nav Section End----------------------- */
+
+/* ---------------------Hero Section Start-------------------- */
+
+.hero-container {
+    background-image: url(./Assets/img/hero-bg.png);
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 84vh;
+    display: flex;
+}
+
+.hero-content {
+    width: 50vw;
+    height: 84vh;
+}
+
+.hero-content h1 {
+    color: white;
+    font-size: 77px;
+    font-weight: 700;
+    font-family: "my-font";
+    margin-top: 9%;
+    margin-left: 10%;
+}
+
+.hero-content h3 {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "my-font";
+    color: #504F4F;
+    margin-left: 10%;
+}
+
+.hero-img {
+
+    width: 50vw;
+    height: 84vh;
+    margin-top: 3%;
+    rotate: -180;
+}
+
+.white-box {
+    width: 38vw;
+    height: 20vh;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 15px 15px;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+
+
+.bt-1 {
+    color: #F17228;
+    background-color: antiquewhite;
+    font-size: 18px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+.bt-2 {
+    border-radius: 8px;
+    border: none;
+    margin-left: 14px;
+    margin-top: 14px;
+    padding: 10px 24px;
+    font-size: 18px;
+    color: gray;
+}
+
+hr {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.bt-3 {
+    color: gray;
+    margin-left: 14px;
+    margin-top: 14px;
+    background-color: #F5F5F5;
+    font-size: 16px;
+    padding: 10px 200px 10px 10px;
+    border: none;
+    border-radius: 10px 10px;
+}
+
+.bt-3 i {
+    color: #F17228;
+}
+
+.bt-4 {
+    background-color: #F17228;
+    color: white;
+    padding: 10px 34px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px 10px;
+    border: none;
+}
+
+/* --------------------Hero Section End------------------- */
+
+/* --------------------Section-1 Start-------------------- */
+
+.sale-container {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 160px;
+    padding-bottom: 80px;
+}
+
+.card {
+    width: 20vw;
+    height: 45vh;
+}
+
+.card img {
+    border-radius: 15px 15px;
+}
+
+.card h2 {
+    font-family: "my-font";
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 16px;
+}
+
+.card h3 {
+    font-family: "my-font";
+    color: #F17228;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: bisque;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 10px 6px 10px 6px;
+    text-align: center;
+}
+
+/* ----------------Section-1 End-------------------- */
+
+/* ----------------Section-2 Start----------------- */
+
+.section-2 {
+    width: 100vw;
+    height: 60vh;
+    background-color: rgb(246, 240, 226);
+}
+
+.section-2-cnt {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.section-2-hd {
+    font-size: 43px;
+    font-weight: 700;
+    font-family: "my-font";
+    color: #F17228;
+    margin-top: 12%;
+    margin-left: 40%;
+    margin-right: 30%;
+}
+
+.information-boxes {
+    width: 15vw;
+    height: 34vh;
+    margin-top: 8%;
+}
+
+.information-boxes i {
+    font-size: 104px;
+    color: #F17228;
+    text-align: center;
+    padding-left: 70px;
+}
+
+.information-boxes h3 {
+    font-size: 22px;
+    font-family: "my-font";
+    margin-top: 20px;
+    text-align: center;
+}
+
+.information-boxes p {
+    text-align: center;
+    font-family: "my-font";
+    color: #9E9E9E;
+    font-weight: lighter;
+    margin-top: 16px;
+    line-height: 25.2px;
+    font-size: 18px;
+}
+
+/* ------------------Section-2 end-------------------- */
+
+/* ------------------Section-3 Start------------------- */
+
+.section-3 {}
+
+.sec-3-cnt {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.sec-3-card {
+    width: 15vw;
+    height: 52vh;
+    margin-top: 8%;
+}
+
+.sec-3-card img {
+    border-radius: 8px;
+}
+
+.sec-3-card h4 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "my-font";
+    margin-top: 8px;
+}
+
+.sec-3-card p {
+    margin-top: 8px;
+    font-size: 16px;
+    font-family: "my-font";
+    font-weight: lighter;
+}
+
+.p-orange {
+    color: #FFB30E;
+    font-size: 16px;
+    font-family: "my-font";
+    font-weight: lighter;
+}
+
+.sec-3-card button {
+    color: white;
+    background-color: #F17228;
+    margin-top: 10px;
+    padding: 10px 70px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "my-font";
+}
+
+.sec-3-hd {
+    font-size: 43px;
+    font-weight: 700;
+    font-family: "my-font";
+    margin-top: 12%;
+    margin-left: 40%;
+    margin-right: 30%;
+}
+
+/* --------------------Section 3 End------------------------- */
+
+/* --------------------Section-4 End-------------------------- */
+
+.section-4 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.section-4-cnt {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 160px;
+}
+
+.section-4-cards {
+    width: 20vw;
+    height: 50vh;
+}
+
+.section-4-cards img {
+    border-radius: 8px;
+}
+
+.card img {
+    border-radius: 15px 15px;
+}
+
+.section-4-hd {
+    font-size: 43px;
+    font-weight: 700;
+    font-family: "my-font";
+    margin-top: 12%;
+    margin-left: 40%;
+    margin-right: 30%;
+}
+
+.green-hd {
+    font-family: "my-font";
+    color: green;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: rgb(204, 234, 204);
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 10px 6px 10px 6px;
+    text-align: center;
+}
+
+.orange-hd {
+    font-family: "my-font";
+    color: #F17228;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: bisque;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 10px 6px 10px 6px;
+    text-align: center;
+}
+
+.cards-sec-cont {
+    display: flex;
+}
+
+.logo-left {
+    width: 30vw;
+}
+
+.content-right {
+    width: 70vw;
+}
+
+.content-right h5 {
+    font-size: 20px;
+    font-family: "my-font";
+    font-weight: 700;
+}
+
+.content-right span {
+    color: #FFB30E;
+    font-size: 18px;
+}
+
+.content-right i {
+    font-size: 20px;
+    color: #FFB30E;
+}
+
+.section-4-btnn {
+    color: white;
+    background-color: #FFB30E;
+    margin-top: 10%;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-family: "my-font";
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 43%;
+    margin-bottom: 20%;
+}
+
+
+/* ----------------------Section-4 End------------------------- */
+
+/* -----------------------Section-5 Start----------------------- */
+
+.section-5 {
+    width: 100vw;
+    height: 90vh;
+}
+
+.sec-5-hd {
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 43px;
+    font-weight: 700;
+    font-family: "my-font";
+    color: black;
+    margin-top: 40%;
+}
+
+.sec-5-main-cnt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 6%;
+}
+
+.sec-5-card img {
+    border-radius: 50%;
+}
+
+.sec-5-card h5 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "my-font";
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* -----------------------Section-5 End----------------------- */
+
+/* -----------------------Section-6 Start---------------------- */
+
+.section-6 {
+    background-image: url(./Assets/img/cta-one-bg.png);
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 115vh;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.white-boxx-cnt {
+    margin-top: 40px;
+    padding-top: 40px;
+    width: 70vw;
+    height: 25vh;
+    background-color: white;
+    border-radius: 15px 15px;
+    margin-left: 12%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col-box {
+    border-left: 1px solid gray;
+    height: 60%;
+}
+
+.col-box h1 {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "my-font";
+    color: #F17228;
+}
+
+.col-box i {
+    color: #FFB30E;
+    margin-left: 20px;
+    font-size: 70px;
+}
+
+.bottom-content-cnt {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-top: 12%;
+    margin-right: 30%;
+}
+
+.left-side-img-part {
+    width: 35vw;
+    height: 100%;
+}
+
+.right-side-content-part {
+    width: 40vw;
+    height: 100%;
+}
+
+.right-side-content-part h2 {
+    color: #FFB30E;
+    font-family: "my-font";
+    font-size: 44px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.right-side-content-part p {
+    color: #827E7E;
+    font-family: "your-font";
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    line-height: 28px;
+}
+
+.right-side-content-part button {
+    font-size: 22px;
+    font-family: "your-font";
+    font-weight: 700;
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.right-side-content-part i {
+    font-size: 35px;
+    color: #F17228;
+}
+
+/* -----------------------Section-6-End ----------------------- */
+
+/* ------------------------Section-7-Strat----------------------- */
+
+.section-7 {
+    width: 80vw;
+    height: 65vh;
+    border: 1px solid whitesmoke;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+.section-7-left-side-content {
+    width: 40%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.section-7-right-side-content {
+    width: 60%;
+    height: 100%;
+}
+
+.section-7-left-side-content h1 {
+    font-size: 43px;
+    font-weight: 700;
+    font-family: "my-font";
+    margin-top: 15%;
+}
+
+.section-7-left-side-content span {
+    color: #FFB30E;
+
+}
+
+.section-7-left-side-content p {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "your-font";
+    color: #504F4F;
+    line-height: 25.2px;
+    margin-top: 40px;
+}
+
+.section-7-left-side-content button {
+    margin-top: 70px;
+    color: white;
+    background-color: #FFB30E;
+    border-radius: 15px;
+    border: none;
+    padding: 15px 98px;
+    font-weight: 700px;
+    font-size: 16px;
+}
+
+/* --------------------Section-7-End--------------------------- */
+
+/* --------------------Section-8-Start------------------------- */
+
+/* ------------------------------------------------------------ */
+
+/* --------------------Section-8-End--------------------------- */
+
+/* --------------------Section-9-Start------------------------- */
+
+/* ------------------------------------------------------------ */
+
+/* --------------------Section-9-End--------------------------- */
+
+/* --------------------Section-10-Start------------------------ */
+
+.section-10 {
+    background-image: url(./Assets/img/cta-two-bg.png);
+    width: 100vw;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10%;
+}
+
+.section-10 h1 {
+    font-size: 54px;
+    font-family: "my-font";
+    font-weight: 700;
+    color: white;
+    margin-left: 27%;
+    margin-right: 25%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.section-10 button {
+    margin-top: 40px;
+    color: white;
+    background-color: #F17228;
+    border-radius: 15px;
+    border: none;
+    padding: 15px 98px;
+    font-weight: 700px;
+    font-size: 16px;
+    margin-left: 40%;
+}
+
+/* ---------------------Section-10-End------------------------ */
+
+/* ---------------------Footer-Section-Start------------------ */
+
+footer {
+    background-color: #212121;
+    width: 100vw;
+    height: 153vh;
+}
+
+.footer-container {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 8%;
+}
+
+li {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "your-font";
+    padding-top: 12px;
+}
+
+.foot-col-1 h4 {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "my-font";
+    margin-bottom: 20px;
+}
+
+
+.foot-hr {
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color:#504F4F;
+    margin-top: 60px;
+}
+
+.foot-social-app {
+    margin-left: 14%;
+}
+
+.foot-social-app h2 {
+    font-size: 20px;
+    font-family: "my-font";
+    font-weight: 700;
+    color: #9E9E9E;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.foot-social-app i {
+    color: #9E9E9E;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.last-hd2{
+    font-size: 33px;
+    font-family: "my-font";
+    font-weight: 700;
+    color: #9E9E9E;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+}
+
+input{
+    width: 280px;
+    margin-left: 15%;
+    padding: 12px 30px;
+    border-radius: 8px;
+    border: none;
+}
+
+.foot-last-btn{
+    color: white;
+    background-color: #FFB30E;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+}
+
+.copyright-foot-line{
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 15%;
+    color: white;
+}
+
+/* -----------------------Footer-Section-End-------------------- */
